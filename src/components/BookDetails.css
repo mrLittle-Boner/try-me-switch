@@ -1,0 +1,45 @@
+.bookdetails {
+  display: flex;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.bookdetails__image {
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.bookdetails__image img {
+  display: flex;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bookdetails__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+}
+
+.bookdetails__info-title {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 580px) {
+  .bookdetails {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .bookdetails__image {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 477px) {
+  .bookdetails__image {
+    width: 60%;
+  }
+}
