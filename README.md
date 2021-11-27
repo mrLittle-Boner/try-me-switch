@@ -1,6 +1,11 @@
 # Just a simple book finder
-  It will be made soon by:
+  It made by:
   * React
   * Redux(Redux-Toolkit)
   * React Router
-  * TypeScript as possible
+  * TypeScript
+
+## Installation
+  1. Download/Copy repository
+  2. Intall dependencies
+  3. Run 'start' script
